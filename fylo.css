@@ -216,10 +216,14 @@ p {
 	display: block;
 }
 
-.illustrate-2 b {
+.illustrate-23 {
 	color: white;
-	font-size: 1.27rem;
+	text-align: left;
+	font-size: 1.2rem;
 	font-family: "Raleway", sans-serif;
+	display: block;
+	margin-top: 3rem;
+	margin-left: 1.4rem;
 }
 
 .illustrate-2 p {
