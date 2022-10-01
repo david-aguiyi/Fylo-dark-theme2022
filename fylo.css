@@ -29,7 +29,7 @@ nav {
 }
 nav ul {
 	display: flex;
-	margin-top: 6px;
+	margin-top: 4.59px;
 }
 
 nav ul li {
@@ -99,4 +99,163 @@ p {
 	font-size: 1rem;
 	font-family: "Raleway", sans-serif;
 	font-weight: 600;
+}
+
+.section-two {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.devices img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 8rem;
+	margin-bottom: 1.3rem;
+}
+.dev-descript {
+	color: white;
+	font-size: 1.4rem;
+	font-family: "Raleway", sans-serif;
+}
+
+.dev-text {
+	color: white;
+	font-family: "Raleway", sans-serif;
+	margin-top: 0.4rem;
+	line-height: 1.3rem;
+	max-width: 85%;
+	font-size: 0.9rem;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.security img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 4.5rem;
+	margin-bottom: 1.3rem;
+}
+.securi-descript {
+	color: white;
+	font-size: 1.4rem;
+	font-family: "Raleway", sans-serif;
+}
+
+.securi-text {
+	color: white;
+	font-family: "Raleway", sans-serif;
+	margin-top: 0.4rem;
+	line-height: 1.3rem;
+	max-width: 85%;
+	font-size: 0.9rem;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.collab img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 4.5rem;
+	margin-bottom: 1.3rem;
+}
+.collab-descript {
+	color: white;
+	font-size: 1.4rem;
+	font-family: "Raleway", sans-serif;
+}
+
+.collab-text {
+	color: white;
+	font-family: "Raleway", sans-serif;
+	margin-top: 0.4rem;
+	line-height: 1.3rem;
+	max-width: 85%;
+	font-size: 0.9rem;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.file img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 4.5rem;
+	margin-bottom: 1.3rem;
+}
+.file-descript {
+	color: white;
+	font-size: 1.4rem;
+	font-family: "Raleway", sans-serif;
+}
+
+.file-text {
+	color: white;
+	font-family: "Raleway", sans-serif;
+	margin-top: 0.4rem;
+	line-height: 1.3rem;
+	max-width: 89%;
+	font-size: 0.9rem;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.illus2-image {
+	max-width: 80%;
+	margin-top: 3.5rem;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.illustrate-2 b {
+	color: white;
+	font-size: 1.27rem;
+	font-family: "Raleway", sans-serif;
+}
+
+.illustrate-2 p {
+	color: white;
+	font-size: 0.9rem;
+	font-family: "Raleway", sans-serif;
+	text-align: left;
+	max-width: 90%;
+	margin-left: 1.4rem;
+	line-height: 1.3rem;
+	margin-top: 1rem;
+}
+
+.illustrate-2 .p2 {
+	max-width: 85%;
+}
+
+.seehow p {
+	color: rgb(101, 226, 217);
+	font-family: "Raleway", sans-serif;
+	text-align: left;
+	font-size: smaller;
+	margin-top: 1rem;
+	margin-left: 1.5rem;
+}
+
+.seehow img {
+	position: relative;
+	top: -15px;
+	left: -1.6rem;
+}
+
+.line {
+	border: 0.9px solid rgb(101, 226, 217);
+	width: 145px;
+	position: relative;
+	margin-left: 1.5rem;
+	margin-top: -0.8rem;
 }
