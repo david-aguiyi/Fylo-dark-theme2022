@@ -42,6 +42,7 @@ nav ul li {
 
 nav ul li a {
 	text-decoration: none;
+	color: white;
 }
 
 .illustration1 img {
@@ -261,6 +262,8 @@ p {
 	height: 12rem;
 	font-family: "Raleway", sans-serif;
 	margin-top: 10rem;
+	z-index: 1;
+	position: relative;
 }
 
 .about-wit {
@@ -295,6 +298,115 @@ p.wit-work {
 }
 
 .wit-info {
+	position: relative;
+	top: -0.7rem;
+	right: -0.3rem;
+}
+
+.quote {
+	width: 10%;
+	position: relative;
+	top: 10.6rem;
+	left: 3rem;
+}
+
+.testimony-card-2 {
+	background-color: hsl(219, 30%, 18%);
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	border-radius: 5px;
+	height: 12rem;
+	font-family: "Raleway", sans-serif;
+	margin-top: 2rem;
+	z-index: 1;
+	position: relative;
+}
+
+.about-wit2 {
+	text-align: left;
+	line-height: 21px;
+	width: 86%;
+	font-size: 11.5px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 2rem;
+}
+
+.witness-info2 img {
+	width: 11%;
+	border-radius: 50%;
+	position: relative;
+	left: 5%;
+	top: 1.2rem;
+}
+
+b.wit-name2 {
+	font-size: 10px;
+	display: block;
+	margin-left: -7.05rem;
+}
+
+p.wit-work2 {
+	margin-left: -5.7rem;
+	margin-top: 0.3rem;
+	font-size: 9px;
+}
+
+.wit-info2 {
+	position: relative;
+	top: -0.7rem;
+	right: -0.3rem;
+}
+
+.testimony-card-3 {
+	background-color: hsl(219, 30%, 18%);
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	border-radius: 5px;
+	height: 12rem;
+	font-family: "Raleway", sans-serif;
+	margin-top: 2rem;
+	z-index: 1;
+	position: relative;
+}
+
+.about-wit3 {
+	text-align: left;
+	line-height: 21px;
+	width: 86%;
+	font-size: 11.5px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 2rem;
+}
+
+.witness-info3 img {
+	width: 11%;
+	border-radius: 50%;
+	position: relative;
+	left: 5%;
+	top: 1.2rem;
+}
+
+b.wit-name3 {
+	font-size: 10px;
+	display: block;
+	margin-left: -9.35rem;
+}
+
+p.wit-work3 {
+	margin-left: -5.7rem;
+	margin-top: 0.25rem;
+	font-size: 9px;
+}
+
+.wit-info3 {
 	position: relative;
 	top: -0.7rem;
 	right: -0.3rem;
