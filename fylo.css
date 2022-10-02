@@ -258,8 +258,22 @@ p {
 
 .line {
 	border: 0.9px solid rgb(101, 226, 217);
-	width: 145px;
+	width: 143px;
 	position: relative;
-	margin-left: 1.5rem;
+	margin-left: 1.56rem;
 	margin-top: -0.8rem;
 }
+
+.testimony-card-1{
+	background-color: aqua;
+
+}
+
+.about-wit{
+	text-align: left;
+
+	line-height: 20px;
+	font-family: 'Raleway', sans-serif;
+}
+
+
