@@ -264,16 +264,51 @@ p {
 	margin-top: -0.8rem;
 }
 
-.testimony-card-1{
-	background-color: aqua;
-
+.testimony-card-1 {
+	background-color: hsl(219, 30%, 18%);
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	border-radius: 5px;
+	height: 12rem;
+	font-family: "Raleway", sans-serif;
+	margin-top: 10rem;
 }
 
-.about-wit{
+.about-wit {
 	text-align: left;
-
-	line-height: 20px;
-	font-family: 'Raleway', sans-serif;
+	line-height: 21px;
+	width: 86%;
+	font-size: 11.5px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 2rem;
 }
 
+.witness-info img {
+	width: 11%;
+	border-radius: 50%;
+	position: relative;
+	left: 5%;
+	top: 1.2rem;
+}
 
+b.wit-name1 {
+	font-size: 10px;
+	display: block;
+	margin-left: -8.5rem;
+}
+
+p.wit-work {
+	margin-left: -5.7rem;
+	margin-top: -0.8rem;
+	font-size: 9px;
+}
+
+.wit-info {
+	position: relative;
+	top: -0.7rem;
+	right: -0.3rem;
+}
