@@ -481,3 +481,44 @@ p.signup-text {
 .signup-card span {
 	color: white;
 }
+
+.footer-logo {
+	display: block;
+	margin-left: 2rem;
+}
+.location-descript {
+	margin-top: 1rem;
+}
+.location-descript img {
+	position: relative;
+	top: 1.7rem;
+	left: 1.5rem;
+}
+.location-descript p {
+	font-family: "Raleway", sans-serif;
+	text-align: left;
+	margin-left: 3.65rem;
+	width: 65%;
+	line-height: 23px;
+	font-size: 14px;
+}
+
+.contact-container p {
+	margin-left: 3.65rem;
+	font-family: "Raleway", sans-serif;
+	text-align: left;
+	font-size: 14px;
+	padding-bottom: 10px;
+}
+
+.contact-container img {
+	position: relative;
+	top: 1.5rem;
+	left: 1.5rem;
+}
+
+.contact-container .email-image {
+	position: relative;
+	top: 1.3rem;
+	left: 1.5rem;
+}
