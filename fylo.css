@@ -4,7 +4,7 @@
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
-	overflow-x: hidden;
+	overflow-x: clip;
 }
 
 body {
@@ -14,6 +14,9 @@ body {
 	overflow-x: clip;
 }
 
+button {
+	cursor: pointer;
+}
 header {
 	display: flex;
 	position: relative;
@@ -58,6 +61,7 @@ nav ul li a {
 .description {
 	display: flex;
 	flex-direction: column;
+	margin-left: 13px;
 }
 .description b {
 	font-weight: 700;
@@ -66,11 +70,10 @@ nav ul li a {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	max-width: 90%;
 	margin-top: 3rem;
-	margin-left: 0.35em;
 	line-height: 2.4rem;
 	text-align: center;
+	width: 14.5em;
 }
 
 .description p {
@@ -79,8 +82,10 @@ nav ul li a {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	max-width: 90%;
+	max-width: 97%;
 	margin: auto;
+	margin-left: -1px;
+	font-size: 18px;
 	margin-top: 1.4rem;
 	line-height: 1.5rem;
 	text-align: center;
@@ -99,6 +104,7 @@ nav ul li a {
 	font-size: 1rem;
 	font-family: "Raleway", sans-serif;
 	font-weight: 600;
+	color: white;
 }
 
 .section-two {
@@ -135,8 +141,8 @@ nav ul li a {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 4.5rem;
-	margin-bottom: 1.3rem;
+	margin-top: 4.1rem;
+	margin-bottom: 1.02rem;
 }
 .securi-descript {
 	font-size: 1.4rem;
@@ -182,7 +188,7 @@ nav ul li a {
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 4.5rem;
-	margin-bottom: 1.3rem;
+	margin-bottom: 1rem;
 }
 .file-descript {
 	font-size: 1.4rem;
@@ -342,7 +348,7 @@ p.wit-work {
 	border-radius: 50%;
 	position: absolute;
 	left: 6%;
-    top: 8.7rem;
+	top: 8.7rem;
 }
 
 b.wit-name2 {
@@ -442,9 +448,13 @@ p.signup-text {
 	font-size: 14px;
 }
 
+input[type="text"] {
+	padding-left: 30px;
+}
 .signup-card input {
 	border: none;
-	width: 85%;
+	max-width: 86%;
+	width: 600px;
 	height: 50px;
 	background-color: hsl(0, 0%, 100%);
 	border-radius: 50px;
@@ -456,10 +466,14 @@ p.signup-text {
 	font-size: 12px;
 }
 
+.active {
+	border: 1px solid red;
+}
+
 .signup-card input::placeholder {
 	color: rgba(97, 96, 96, 0.281);
 	position: relative;
-	left: 8%;
+	left: 2.3%;
 	font-size: 16px;
 }
 
@@ -472,7 +486,7 @@ p.signup-text {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 2.5rem;
+	margin-top: 1rem;
 	font-size: 1rem;
 	font-family: "Raleway", sans-serif;
 	font-weight: 600;
@@ -480,6 +494,18 @@ p.signup-text {
 
 .signup-card span {
 	color: white;
+}
+
+.errtext {
+	position: absolute;
+	font-size: 12px;
+	top: 17.5rem;
+	left: 3rem;
+	font-style: italic;
+	color: rgba(255, 0, 0, 0.856);
+	word-spacing: 1px;
+	letter-spacing: 1px;
+	visibility: hidden;
 }
 
 footer {
@@ -504,7 +530,6 @@ footer {
 .location-descript img {
 	position: relative;
 	top: 1.7rem;
-	left: 1.5rem;
 }
 .location-descript p {
 	font-family: "Raleway", sans-serif;
@@ -552,12 +577,26 @@ footer {
 	margin-top: 3rem;
 }
 
+.social-icons i {
+	border: 1px solid white;
+	border-radius: 50%;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	margin-top: auto;
+}
+
 .TP-container ul li {
 	list-style: none;
-	margin-left: 1.5rem;
+	margin-left: 1, 5rem;
 	margin-top: 1rem;
 }
 
+#text {
+	display: block;
+	margin-top: 10px;
+	text-align: center;
+}
 @media (min-width: 600px) {
 	header {
 		position: relative;
@@ -575,6 +614,7 @@ footer {
 
 	.nav-links ul li {
 		margin-left: 33px;
+		font-size: 17px;
 	}
 
 	.description b {
@@ -598,6 +638,7 @@ footer {
 	}
 
 	.grid-icons1 {
+		justify-content: center;
 		display: flex;
 		flex-direction: row;
 	}
@@ -606,9 +647,14 @@ footer {
 	}
 	.devices {
 		position: relative;
-		top: -2.7rem;
+		top: -3.6rem;
+	}
+	.collab {
+		position: relative;
+		top: -1rem;
 	}
 	.grid-icon2 {
+		justify-content: center;
 		display: flex;
 		align-items: center;
 		flex-direction: row;
@@ -619,5 +665,152 @@ footer {
 
 	.illustrate-2 {
 		display: flex;
+		width: 100rem;
+		max-width: 77%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 2em;
+	}
+	.block b {
+		font-size: 2rem;
+		width: 50%;
+	}
+	.block {
+		margin-left: 1.5rem;
+		margin-top: 5rem;
+	}
+	.seehow img {
+		margin-right: 12rem;
+		margin-top: -1rem;
+		margin-bottom: 0.1rem;
+	}
+
+	.testimonial-cards-containers {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+		gap: 2em;
+		max-width: 70em;
+		margin-top: 4rem;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.section-three img.quote {
+		width: 40px;
+		position: relative;
+		top: 75px;
+		left: 109px;
+	}
+
+	.testimonial-cards-containers > * {
+		margin: 0;
+	}
+	.witness-info {
+		margin-top: 0.7em;
+	}
+	.wit-info {
+		margin-left: 0.5em;
+		margin-top: -0.1em;
+	}
+	.witness-info2 img {
+		margin-top: -0.85em;
+	}
+	.wit-info2 {
+		margin-top: 12px;
+		margin-left: 8px;
+	}
+	.witness-info3 {
+		margin-top: 0.8em;
+	}
+	.wit-info3 {
+		margin-left: 8px;
+		margin-top: -2px;
+	}
+	.signup-card {
+		position: absolute;
+		left: 50%;
+		right: 50%;
+		transform: translate(-50%, -50%);
+		top: 153rem;
+		width: 60rem;
+		height: 19rem;
+		margin-bottom: -9em;
+	}
+	.signup-card p {
+		max-width: 68%;
+	}
+	.inputflex {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-self: center;
+		align-items: center;
+		margin-left: 2em;
+		max-width: 90%;
+	}
+	.inputflex button {
+		width: 14rem;
+	}
+
+	.footer-flex {
+		display: flex;
+		max-width: 100%;
+		margin-top: 1em;
+		margin-left: -2em;
+		margin-right: auto;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+	.footer-flex > * {
+		margin: 0;
+	}
+	.footer-flex p {
+		/* width: 30%; */
+		max-width: 25%;
+		margin-top: 1em;
+	}
+	.location-descript img {
+		position: absolute;
+		top: 5.3em;
+		left: 2.5em;
+	}
+	p#num {
+		position: absolute;
+		white-space: nowrap;
+		margin-top: 1px;
+	}
+	p#email {
+		position: absolute;
+		white-space: nowrap;
+		margin-top: 3em;
+	}
+	.email-image {
+		position: absolute;
+		width: 30px;
+		top: 9%;
+		margin-left: -50px;
+	}
+
+	#text {
+		position: absolute;
+		margin-bottom: -9em;
+		left: 9%;
+	}
+	.signup-card button {
+		margin-top: 2.188rem;
+	}
+
+	.fa-facebook-f:before {
+		content: "\f39e";
+		position: relative;
+		top: 6.3px;
+	}
+
+	.fa-twitter:before {
+		content: "\f099";
+		position: relative;
+		top: 6px;
 	}
 }
