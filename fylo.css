@@ -530,27 +530,61 @@ footer {
 .location-descript img {
 	position: relative;
 	top: 1.7rem;
+	left: 1.5em;
 }
-.location-descript p {
-	font-family: "Raleway", sans-serif;
-	text-align: left;
-	margin-left: 3.65rem;
-	width: 65%;
-	line-height: 23px;
-	font-size: 14px;
+.footer-flex p {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.social-icons {
+	position: relative;
+	text-align: center;
+	margin-top: 30px;
+}
+
+.social-icons i {
+	border: 1px solid white;
+	border-radius: 50%;
+	width: 30px;
+	height: 30px;
+	margin-left: 10px;
+	text-align: center;
+}
+
+.fa-facebook-f:before {
+	content: "\f39e";
+	position: relative;
+	top: 6px;
+}
+
+.fa-twitter:before {
+	content: "\f099";
+	position: relative;
+	top: 6px;
+}
+
+.fa-instagram:before {
+	content: "\f16d";
+	position: relative;
+	top: 6px;
 }
 
 .contact-container p {
-	margin-left: 3.65rem;
 	font-family: "Raleway", sans-serif;
 	text-align: left;
 	font-size: 14px;
+	margin-left: -21px;
 	padding-bottom: 10px;
 }
 
 .contact-container img {
 	position: relative;
-	top: 1.5rem;
+	top: 1.33rem;
 	left: 1.5rem;
 }
 
@@ -559,11 +593,20 @@ footer {
 	top: 1.3rem;
 	left: 1.5rem;
 }
+p#email {
+	position: relative;
+	left: 7px;
+}
+
+.TP-container {
+	margin-left: 24px;
+}
 
 .aboutUs-container {
 	display: flex;
 	margin-left: 1.5rem;
 	flex-direction: column;
+	margin-top: 40px;
 }
 
 .aboutUs-container ul li {
@@ -754,22 +797,39 @@ footer {
 		width: 14rem;
 	}
 
+	footer {
+		height: 30rem;
+		font-size: 18px !important;
+	}
 	.footer-flex {
 		display: flex;
 		max-width: 100%;
 		margin-top: 1em;
-		margin-left: -2em;
-		margin-right: auto;
+		/* margin-left: -1.5em; */
+		/* margin-right: auto; */
 		flex-direction: row;
-		justify-content: space-between;
+		gap: 5em;
+	}
+	.footer-content {
+		position: absolute;
+		margin-top: 15rem;
 	}
 	.footer-flex > * {
 		margin: 0;
 	}
 	.footer-flex p {
 		/* width: 30%; */
-		max-width: 25%;
-		margin-top: 1em;
+		max-width: 23%;
+		margin-top: -50px;
+		line-height: 20px;
+		margin-left: -10px;
+		margin-right: 0;
+	}
+	.aboutUs-container {
+		width: 100px;
+	}
+	.TP-container {
+		width: 100px;
 	}
 	.location-descript img {
 		position: absolute;
@@ -779,20 +839,28 @@ footer {
 	p#num {
 		position: absolute;
 		white-space: nowrap;
-		margin-top: 1px;
+		margin-top: -2px;
+		font-size: 16px;
+		margin-left: -2em;
 	}
 	p#email {
 		position: absolute;
 		white-space: nowrap;
-		margin-top: 3em;
+		margin-top: 2.35em;
+		margin-left: 29em;
+		font-size: 16px;
 	}
 	.email-image {
-		position: absolute;
-		width: 30px;
-		top: 9%;
-		margin-left: -50px;
+		position: relative;
+		width: 20.3px;
+		margin-bottom: -2.4rem;
+		margin-left: -20px;
 	}
-
+	.contact-container {
+		width: 15em;
+		font-size: 15px;
+		margin-left: 1em;
+	}
 	#text {
 		position: absolute;
 		margin-bottom: -9em;
@@ -810,6 +878,12 @@ footer {
 
 	.fa-twitter:before {
 		content: "\f099";
+		position: relative;
+		top: 6px;
+	}
+
+	.fa-instagram:before {
+		content: "\f16d";
 		position: relative;
 		top: 6px;
 	}
