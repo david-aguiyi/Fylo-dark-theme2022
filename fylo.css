@@ -21,10 +21,10 @@ header {
 	display: flex;
 	position: relative;
 	margin-top: 2rem;
+	margin-left: 2em;
 }
 
 .logo img {
-	padding-left: 20px;
 	width: 100px;
 }
 
@@ -61,6 +61,8 @@ nav ul li a {
 .description {
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
+	width: 100%;
 	margin-left: 13px;
 }
 .description b {
@@ -82,8 +84,9 @@ nav ul li a {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	max-width: 97%;
+	max-width: 100%;
 	margin: auto;
+	width: 89%;
 	margin-left: -1px;
 	font-size: 18px;
 	margin-top: 1.4rem;
@@ -207,7 +210,7 @@ nav ul li a {
 }
 
 .illus2-image {
-	max-width: 80%;
+	max-width: 50%;
 	margin-top: 3.5rem;
 	margin-left: auto;
 	margin-right: auto;
@@ -641,18 +644,16 @@ p#email {
 	text-align: center;
 }
 @media (min-width: 600px) {
-	header {
-		position: relative;
-	}
+
+
 	.logo img {
-		float: left;
-		margin-left: 3rem;
+		margin-left: 2rem;
 		width: 10rem;
 	}
 	.nav-links {
 		display: block;
 		position: absolute;
-		right: 3rem;
+		right: 1rem;
 	}
 
 	.nav-links ul li {
@@ -776,7 +777,6 @@ p#email {
 		left: 50%;
 		right: 50%;
 		transform: translate(-50%, -50%);
-		top: 153rem;
 		width: 60rem;
 		height: 19rem;
 		margin-bottom: -9em;
@@ -805,8 +805,6 @@ p#email {
 		display: flex;
 		max-width: 100%;
 		margin-top: 1em;
-		/* margin-left: -1.5em; */
-		/* margin-right: auto; */
 		flex-direction: row;
 		gap: 5em;
 	}
@@ -818,7 +816,6 @@ p#email {
 		margin: 0;
 	}
 	.footer-flex p {
-		/* width: 30%; */
 		max-width: 23%;
 		margin-top: -50px;
 		line-height: 20px;
@@ -886,5 +883,11 @@ p#email {
 		content: "\f16d";
 		position: relative;
 		top: 6px;
+	}
+}
+
+@media (min-width: 651px) {
+	.signup-card {
+		margin-top: 21rem;
 	}
 }
